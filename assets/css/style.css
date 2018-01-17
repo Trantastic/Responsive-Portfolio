@@ -289,14 +289,26 @@ input[type=submit] {
     }
 }
 
-}
 
 @media screen and (max-width: 640px) {
 
-#masthead {
-    position: static;
-}
+    #logo {
+        width: 100%;
+        margin-left: 0;
+    }
 
+    a:last-child {
+        margin-right: 5em;
+    }
 
+    .main-section {
+        margin-top: 3em;
+        width: 85%;
+    }
+
+    .sidebar {
+        width: 85%;
+        margin-right: 2.2em;
+    }
 
 }
